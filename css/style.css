@@ -1,0 +1,21 @@
+body{
+	color: white;
+}
+
+.modal {
+	color: black;
+}
+
+.high, h1{
+	color:#007bff;
+}
+
+.main-content{
+	width: 70%;
+	margin: auto;
+}
+
+.tooltip{
+	background-color: #007bff;	
+}
+

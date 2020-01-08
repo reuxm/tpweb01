@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Gestion clients</title>
+	
+	<link rel="stylesheet" href="../css/bootstrap.css" >
+	<link rel="stylesheet" href="../css/style.css" >
+</head>
+<body class="bg-dark">
+	<h1>Saisie Client</h1>
+	<form class="main-content">
+		<div class="form-row">
+			<div class="col">
+				<label>Nom</label>
+				<span class="high" data-toggle="tooltip" data-placement="top" title="Votre nom de famille">[?]</span>
+				<input id="n" class="form-control" type="text"/>
+			</div>
+
+			<div class="col">
+				<label>Prenom</label>
+				<span class="high" data-toggle="tooltip" data-placement="top" title="Votre prenom">[?]
+				<input id="p" class="form-control" type="text"/>
+			</div>
+		</div>
+		
+		<div class="form-row">
+			<div class="col-7">
+				<label>Adresse</label>
+			<span class="high" data-toggle="tooltip" data-placement="top" title="Votre adresse">[?]
+				<input id="a" class="form-control" type="text"/>
+			</div>
+			<div class="col-2">
+				<label>Code Postal</label>
+			<span class="high" data-toggle="tooltip" data-placement="top" title="Votre code postal">[?]
+				<input id="c" class="form-control" type="text"/>
+			</div>
+			<div class="col">
+				<label>Ville</label>
+			<span class="high" data-toggle="tooltip" data-placement="top" title="Votre ville de residence">[?]
+				<input id="v" class="form-control" type="text"/>
+			</div>
+		</div>
+		
+		<div class="form-row">
+			<div class="col">
+				<label>Telephone</label>
+				<span class="high" data-toggle="tooltip" data-placement="top" title="Votre numero de telephone">[?]
+				<input id="t" class="form-control" type="number"/>
+			</div>
+
+			<div class="col">
+				<label>Mobile</label>
+				<span class="high" data-toggle="tooltip" data-placement="top" title="Votre numero de telephone">[?]
+				<input id="m" class="form-control" type="number"/>
+			</div>
+		</div>
+		<br/>
+		<input type="submit" class="btn btn-outline-primary" value="Submit" class="btn btn-primary"/>
+	</form>
+</body>
+</html>
